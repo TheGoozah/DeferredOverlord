@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Materials\ColorMaterial.cpp" />
+    <ClCompile Include="CourseObjects\SponzaScene.cpp" />
+    <ClCompile Include="Materials\BasicMaterial.cpp" />
+    <ClCompile Include="Materials\BasicMaterial_Deferred.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Materials\ColorMaterial.h" />
+    <ClInclude Include="CourseObjects\SponzaScene.h" />
+    <ClInclude Include="Materials\BasicMaterial.h" />
+    <ClInclude Include="Materials\BasicMaterial_Deferred.h" />
+  </ItemGroup>
+</Project>
